@@ -15,7 +15,7 @@ public boolean cyanerds = false;
 		if (!cyanerds) {
 			g2d.setColor(Color.BLACK);
 		
-//		if (Math.abs(px-x) < 5 && Math.abs(py-y) < 5) System.exit(0);
+		if (Math.abs(px-x) < 5 && Math.abs(py-y) < 5) System.exit(0);
 		
 			if (px > x) x+= espeed; 
 			else x-= espeed;
